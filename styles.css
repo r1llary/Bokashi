@@ -1,0 +1,33 @@
+    h1 {
+        color: #2ac92d;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .subtitulo {
+        color: #2ac92d;
+        text-align: center;
+    }
+
+    p {
+        font-size: larger;
+        text-align: justify;
+    }
+
+    .nav-link {
+        font-size: large;
+
+    }
+
+    .imagem img {
+        display: block;
+        margin: 20px auto;
+        width: 60%;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        /* Adicione esta linha para dar espaço abaixo da imagem */
+    }
