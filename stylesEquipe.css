@@ -206,52 +206,7 @@ main h3 {
 
 /* Estilos para a seção de Benefícios */
 
-.beneficios {
-    padding: 2rem;
-    margin-top: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 
-.beneficios h2 {
-    font-size: 35px;
-    color: #2ac92d;
-    margin-bottom: 15px;
-
-}
-
-.beneficios p {
-    text-align: center;
-    color: black;
-    font-size: 18px;
-
-}
-
-.beneficios h3 {
-    text-align: center;
-    color: black;
-}
-
-.beneficios ul {
-    list-style-type: none;
-    /*Remove os marcadores padrão*/
-}
-
-.beneficios li {
-    font-size: 18px;
-    margin-bottom: 1rem;
-}
-
-.beneficios li strong {
-    color: #2ac92d;
-    font-size: 20px;
-}
-
-.beneficios li:before {
-    content: "✔️";
-    color: #2ac92d;
-    margin-right: 10px;
-}
 
 /* como fazer*/
 .sobrenos footer {
@@ -364,4 +319,10 @@ figcaption {
     font-size: 16px;
     font-weight: bold;
     color: #333;
+}
+main h1{
+    text-align: center;
+    margin-top: 5;
+    font-weight: bold;
+    color: #2ac92d;
 }

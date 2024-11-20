@@ -31,3 +31,109 @@
         margin-bottom: 10px;
         /* Adicione esta linha para dar espaço abaixo da imagem */
     }
+    strong{
+        color: #2ac92d;
+    }
+
+/* Danyel Luis de Oliveira - Estilo da seção Sobre Nós */
+/* Centraliza e estiliza os títulos "Pesquisadores" e "Desenvolvedores" */
+.equipe h2 {
+    font-size: 32px;
+    color: #2ac92d;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Danyel Luis de Oliveira - Layout dos integrantes em linhas de até 3 itens */
+.integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Danyel Luis de Oliveira - Estiliza cada integrante individualmente */
+.integrante {
+    text-align: center;
+    width: 180px;
+}
+
+/* Danyel Luis de Oliveira - Imagens circulares com efeito de zoom */
+.integrante img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Danyel Luis de Oliveira - Efeito de zoom nas imagens ao passar o mouse */
+.integrante img:hover {
+    transform: scale(1.1);
+}
+
+/* Danyel Luis de Oliveira - Estilo dos nomes dos integrantes */
+.introducao p {
+    text-align: center font-sizelarger;
+    text-align: justify;
+}
+.integrante p {
+    font-size:larger;
+    text-align: center; 
+}
+
+/* Luhan - */
+.aplicacoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Luhan */
+.aplicacao {
+    text-align: center;
+    justify-content: center;
+    width: 380px;
+}
+
+/* Luhan */
+.aplicacao img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Luhan */
+.aplicacao img:hover {
+    transform: scale(1.1);
+}
+
+/* Luhan */
+.aplicacoes p {
+    font-size: 22px;
+    color: #333;
+}
+
+/* Luhan */
+.tituloaplicacoes h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2ac92d;
+}
+
+/* Luhan */
+.textoaplicacoes p {
+    font-size: 22px;
+    color: #8b8b8b;
+}
+
+.imageaplic {
+    justify-content: center;
+    
+}
